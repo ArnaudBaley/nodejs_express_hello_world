@@ -1,12 +1,14 @@
+# nodejs_express_hello_world
+
 ![screenshot](https://github.com/ArnaudBaley/nodejs_express_hello_world/blob/master/Capture.PNG)
 
-# SOURCES
+## SOURCES
 
 [Installation](https://expressjs.com/fr/starter/installing.html)
 
 [Hello world](https://expressjs.com/fr/starter/hello-world.html)
 
-# INSTALLATION 
+## INSTALLATION 
 
 -Créer le dossier "myapp"
 
@@ -25,7 +27,7 @@ npm install express --save
 -Créer fichier "app.js"
 
 
-# DEV
+## DEV
 
 Ajouter à app.js
 ```bash
@@ -42,7 +44,7 @@ app.listen(3000, function () {
 ```
 
 
-# LANCEMENT
+## LANCEMENT
 
 ```bash
 node app.js
