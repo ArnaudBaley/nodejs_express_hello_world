@@ -8,7 +8,25 @@
 
 [Hello world](https://expressjs.com/fr/starter/hello-world.html)
 
-## INSTALLATION 
+
+## Installation 
+
+```bash
+npm install
+```
+
+## LANCEMENT
+
+```bash
+node app.js
+```
+
+http://localhost:3000/
+
+
+## FROM SCRATCH
+
+### Installation 
 
 -Créer le dossier "myapp"
 
@@ -27,7 +45,7 @@ npm install express --save
 -Créer fichier "app.js"
 
 
-## DEV
+### Dev
 
 Ajouter à app.js
 ```bash
@@ -42,12 +60,3 @@ app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })
 ```
-
-
-## LANCEMENT
-
-```bash
-node app.js
-```
-
-http://localhost:3000/
